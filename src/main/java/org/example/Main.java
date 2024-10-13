@@ -13,7 +13,7 @@ public class Main {
         Thread.sleep(2000);
         driver.findElement(By.id("loginForm:login_username")).sendKeys("AshokG");
         Thread.sleep(1000);
-        driver.findElement(By.id("loginForm:login_password")).sendKeys("welc0me$olarTis1");
+        driver.findElement(By.id("loginForm:login_password")).sendKeys("welc0me$olarTis1  aaaaa");
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"loginForm:LoginType\"]/tbody/tr/td[2]/div/div[2]")).click();
         Thread.sleep(1000);
